@@ -18,6 +18,11 @@ a:hover {
     cursor: pointer;
 }
 
+.pantherlogo{
+    width: 150px;
+    height: 150px;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
