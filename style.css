@@ -13,6 +13,10 @@ button {
     outline: none!important;
 }
 
+.portfolio-row{
+    display: flex;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -777,7 +781,7 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
-    display: flex;
+   
 }
 
 .avatar {
@@ -869,6 +873,8 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -918,6 +924,19 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .portfolio-row{
+        flex-wrap: wrap!important;
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center!important;
+        flex-direction: column!important;
+    }
+    .col-sm-6{
+        display: flex!important;
+        flex-direction: column!important;
+        justify-content: center!important;
+        align-items: center!important;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -933,6 +952,8 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+
+    
     
     .b-parallax {
         background-attachment: scroll;
@@ -1062,8 +1083,9 @@ h4 {
     }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+   
 }
