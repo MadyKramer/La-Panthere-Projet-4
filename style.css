@@ -925,18 +925,19 @@ h4 {
 
 @media (max-width: 767px) {
     .portfolio-row{
-        flex-wrap: wrap!important;
-        display: flex!important;
-        justify-content: center!important;
-        align-items: center!important;
-        flex-direction: column!important;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     .col-sm-6{
-        display: flex!important;
-        flex-direction: column!important;
-        justify-content: center!important;
-        align-items: center!important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+    
     .page-container {
         overflow-x: hidden;
         position: relative;
